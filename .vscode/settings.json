@@ -33,7 +33,7 @@
     "jupyter.askForKernelRestart": false,
     "mypy-type-checker.importStrategy": "fromEnvironment",
     "pylint.importStrategy": "fromEnvironment",
-    "python.languageServer": "Pylance",
+    "python.languageServer": "None",
     "python.poetryPath": "poetry",
     "python.testing.pytestArgs": [
         "tests"
