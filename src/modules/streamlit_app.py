@@ -1,12 +1,7 @@
-"""
-
-Example of Streamlit App.
-
-"""
+"""Example of Streamlit App."""
 
 import time
 from functools import lru_cache
-from typing import cast
 
 import pandas as pd
 import streamlit as st
@@ -40,7 +35,7 @@ def fibbonacci_df(n: int) -> tuple[pd.DataFrame, float]:
     start = time.time()
     result = pd.DataFrame(
         {
-            "number": [i for i in range(n)],
+            "number": list(range(n)),
             "fibonacci": [fibonacci(i) for i in range(n)],
         }
     )
