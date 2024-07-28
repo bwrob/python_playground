@@ -1,4 +1,12 @@
-"""Gemini API."""
+"""
+Gemini API.
+
+https://ai.google.dev/gemini-api/docs/get-started/tutorial?lang=python
+https://www.kdnuggets.com/how-to-access-and-use-gemini-api-for-free
+
+Needs US VPN
+
+"""
 
 import google.generativeai as genai
 import yaml
